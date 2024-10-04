@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List </title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body >
+    <header>
+
+      
+        <div class=" d-flex align-items-center ">
+
+            <h2 class="text-white">Hello 😚</h2>
+
+            <h1 id="userNameDisplay" class="text-white"></h1>
+        </div>
+    </header>
+    <section class="container d-flex align-items-start justify-content-center">
+        <div class="bg-white shadow-lg rounded-3 text-start py-5 px-5">
+            <h1>To-Do List 📝</h1>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control w-100" id="userTask" placeholder="Add Your Task ...">
+                <label for="userTask">Add Your Task</label>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="date" class="form-control w-100" id="taskDate">
+                <label for="taskDate">Due Date</label>
+            </div>
+            <button class="btn btn-info">Add</button>
+            <button class="btn btn-warning" id="updateButton" style="display:none;">Update</button>
+        </div>
+    </section>
+    
+    <section class="container-fluid mt-5 tasks">
+      
+    </section>
+
+    <div class="alert alert-info   " role="alert">
+        Please fill in all fields
+      </div>
+      <div class="alert alert-success bg-success text-white" role="alert">
+       Task Deleted successfully
+      </div>
+
+
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+body {
+    background-color: #24353F;
+
+}
+
+
+button.btn{
+  background-color:  #330c58  !important;
+
+  color: white !important ;
+  padding: 5px 40px;
+}
+
+
+.task-info span {
+    color: #330c58 !important;
+    flex-grow: 1;
+}
+
+.task-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.task-date {
+    display: block;
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.task-actions button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.task-actions .btn-sm {
+    padding: 0;
+}
+
+.completed-task .task-text {
+    text-decoration: line-through;
+    color: gray !important;
+}
+
+.due-task {
+    background-color: #ffdddd;
+    border-left: 5px solid #ff5555;
+}
+
+.alert{
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transition: all 0.5s ;
+    transform: translateX(-50%);
+    
+}
